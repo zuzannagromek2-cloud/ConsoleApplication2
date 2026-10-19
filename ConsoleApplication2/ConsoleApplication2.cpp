@@ -102,11 +102,20 @@ cout << "Koniec programu" << endl;
      } return 0; // program wyswietla dwa razy wynik dla stopni celsjusza jeden z dokladnoscia do 4 miejsc po przecinku
      // a drugi z dokladnoscia do jednego miejsca
      }*/
-     //zad.8
-    /*int x;
-    for (x = 0; x <= 100; x += 2) {
-        cout << x << endl;
-    } return 0;
+     //zad.7
+    /*double a;
+        cout << "Podaj liczbe a: " << endl;
+        cin >> a;
+
+        if (a > 0) {
+            cout << a << endl;
+    } return 0; //program prosi raz o liczbe musze pomyslec jak ma prosic 10-krotnie
+}*/
+//zad.8
+/*int x;
+for (x = 0; x <= 100; x += 2) {
+    cout << x << endl;
+} return 0;
 
 }*/
 //zad.9
@@ -121,11 +130,50 @@ cout << "Koniec programu" << endl;
         }
     } return 0;
 }*/
+//zad.10
+    /*int x;
+    int n;
+    int licznik = 0;
+    cout << "Podaj liczbe:" << endl;
+    cin >> n;
+    if (n != 0) {
+        for (x = 0; x <= 100; x++) {
+
+            if (x % n == 0) {
+                licznik++;
+            }
+        }
+        cout << "Ilosc liczb podzielnych przez n z zakresu [0,100] wynosi: " << licznik << endl;
+    }
+}*/
+//zad.11     
+/*int a;
+int b;
+cout << "Podaj dwie liczby calkowite: " << endl;
+cin >> a >> b;
+*/
+//zad.12
+    /*int n;
+    double suma = 0;
+    double srednia;
+    double liczba;
+    cout << "Ile liczb chcesz podac? " << endl;
+    cin >> n;
+    if (n > 0) {
+        for (int i = 0; i < n; i++) {
+            cout << "Podaj liczby:" << endl;
+            cin >> liczba;
+            suma = suma + liczba;
+        } 
+        srednia = suma / n;
+                    cout << "Srednia arytmetyczna wynosi: " << srednia << endl;
+                    return 0;
+                }
+            }
+      */ //dokonczyc zad 12 i reszte w weekend
 
 
-
-
-
+      
 
 
 
