@@ -2,8 +2,8 @@
 //
 
 #include <iostream>
-using namespace std;
-int main() {
+//using namespace std;
+//int main() {
     //zad1.1
     /*for (int i = 0; i <= 10; i++) {
         cout << i << endl;
@@ -163,17 +163,58 @@ cin >> a >> b;
         for (int i = 0; i < n; i++) {
             cout << "Podaj liczby:" << endl;
             cin >> liczba;
+
             suma = suma + liczba;
-        } 
+        }
         srednia = suma / n;
                     cout << "Srednia arytmetyczna wynosi: " << srednia << endl;
                     return 0;
                 }
-            }
-      */ //dokonczyc zad 12 i reszte w weekend
+            }*/
+            //zad.13
+    /*for (int i = 100; i >= 0; i--) {
+        cout << i << endl;
+    }
+}*/
+//zad.14
+   /* int a;
+    int b;
+    int c;
+    cout << "Podaj 3 liczby calkowite" << endl;
+    cin >> a >> b >> c;
+    if (a < b && a < c) {
+        cout << a << endl;
+    }
+    else if (b < a && b < c) {
+        cout << b << endl;
+    }
+    else {
+        cout << c << endl;
+    }
+}*/
+//zad.15
+#include <cstdlib>
+using namespace std;
+int main() {
+    /*    int n;
+        int m;
+        cout << "Podaj 2 liczby calkowite n - ilosc do wylosowania i m - ilosc liczb w przedziale" << endl;
+        cin >> n >> m;
+        for (int i = 0; i < n; i++) {
+            cout << rand() % (m+1) << endl;
+        } return 0;
+    }*/
+    //zad.16
+    /*int a;
+    cout << "Podaj swoj szczesliwy numer z zakresu[1, 10]" << endl;
+    cin >> a;
+    srand(time(0));
+    for (int i = 0; i <= 10; i++) {
+        cout << rand() % (10 + 1) << endl;
+    } return 0;
+}*/
 
 
-      
 
 
 
